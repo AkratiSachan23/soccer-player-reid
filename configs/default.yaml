@@ -1,0 +1,13 @@
+
+detection:
+  model_path: "player_reid/models/best.pt"
+  conf_thresh: 0.5
+  player_class_id: 2
+
+tracking:
+  max_age: 20
+  match_threshold: 0.5
+
+io:
+  input_video: "player_reid/data/input/15sec_input_720p.mp4"
+  output_video: "player_reid/data/output/reid_output_video.mp4"
