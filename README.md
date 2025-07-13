@@ -21,7 +21,7 @@ The system assigns consistent IDs to players across frames, even when players ex
 ### Installation
 ```bash
 # Clone repository
-cd player-reid
+cd soccer-player-reid
 ```
 ```bash
 # Setup environment
@@ -34,17 +34,6 @@ pip install -r requirements.txt
 ```
 ```bash
 # Output file
-player_reid\data\output\reid_output_video.mp4
-```
-## Folder Structure
-```bash
-player-reid/
-├── data/              # Input/output videos
-├── models/            # Detection model (best.pt)
-├── configs/           # Visualizations and results
-├── requirements.txt   # Python packages
-├── setup.py
-├── run.py            # Python script (if converted)
-└── README.md
+Google drive 
 ```
 
